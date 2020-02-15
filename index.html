@@ -4,17 +4,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
 
   <title>About Drake</title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg bg-white text-grey border-bottom">
-    <a class="navbar-brand text-white">Drake DeMuyt</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    <a class="navbar-brand text-white position-relative">Drake DeMuyt</a>
+    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,15 +32,13 @@
       </ul>
     </div>
   </nav>
-
   <div class="container pt-5">
     <div class="row">
-      <div class="col-md-6 col-sm-12 card">
+      <div class="col-md-8 col-sm-12 card">
         <h1 class="border-bottom"> About Me</h1>
-        <div class="row">
-          <div class="col-md-4 col-sm-2 float-left"><img src="./Assets/drakedemuytprofile.jpg" width="150px"
-              height="150px"></div>
-          <div class="col-md-8 col-sm-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          <img class="float-left" src="./Assets/drakedemuytprofile.jpg" width="150px"
+              height="150px"></img>
+          <div class="float-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
             type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
@@ -49,10 +47,20 @@
             software like Aldus PageMaker including versions of Lorem Ipsum.
           </div>
         </div>
+        </div>
       </div>
     </div>
   </div>
   <style>
+        .navbar  {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    .navbar-brand {
+      height: 50px;
+      padding-top: 7.5px;
+    }
+
     .footer{
       position: fixed;
       left: 0;
@@ -60,6 +68,7 @@
       width: 100%;
       height: 100px;
       background: rgb(4, 173, 196);
+      z-index: 3;
     }
   </style>
   <div class="footer">
@@ -74,6 +83,7 @@
       height: 100px;
       text-align: center;
       padding-top: 10px;
+      z-index: 3;
     }
     p {
       position: relative;
