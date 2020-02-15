@@ -8,7 +8,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-  <title>About Drake</title>
+  <title>Portfolio</title>
 </head>
 
 <body>
@@ -34,7 +34,83 @@
       </div>
     </nav>
   </header>
+  
+  <style>
+    img {
+     margin: 15px;
+     position: relative;
+     z-index: 0;
+    }
+    .badge{
+      position: inherit;
+      z-index: 1;
+      right: -15px;
+      width: 200px;
+      height: 40px;
+      bottom: 50px;
+      font-size: larger;
+    }
+  </style>
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-md-8 col-sm-12 card">
+        <h1 class="border-bottom"> Portfolio </h1>
+        <div class="row">
+          <div class="col-md-6">
+          <img src="./Assets/google.png" class="img-fluid" alt="Google" width="200px" height="200px">
+        <a href="https://www.google.com" target="_blank" class="badge badge-info">Google</a>
+      </div>
+      <div class="col-md-6">
+        <img src="./Assets/reddit.jpg" class="img-fluid" alt="Reddit" width="200px" height="200px">
+        <a href="https://www.reddit.com" target="_blank" class="badge badge-info">Reddit</a>
+      </div>
+      <div class="col-md-6">
+        <img src="./Assets/twitch.jpg" class="img-fluid" alt="Twitch" width="200px" height="200px">
+        <a href="https://www.twitch.com" target="_blank" class="badge badge-info">Twitch</a>
+      </div class="col-md-6">
+      <div class="col-md-6">
+        <img src="./Assets/youtube.png" class="img-fluid" alt="YouTube" width="200px" height="200px">
+        <a href="https://www.youtube.com" target="_blank" class="badge badge-info">YouTube</a>
+      </div>
+      <div class="col-md-6">
+        <img src="./Assets/github.png" class="img-fluid" alt="GitHub" width="200px" height="200px">
+        <a href="https://www.github.com/ddemuyt" target="_blank" class="badge badge-info">GitHub</a>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
 
+  <style>
+    .footer{
+      position: fixed;
+      left: 0;
+      bottom: 10px;
+      width: 100%;
+      height: 55px;
+      background: rgb(4, 173, 196);
+    }
+  </style>
+  <div class="footer">
+
+  </div>
+  <style>
+    .footer-copyright {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+    }
+    p {
+      position: relative;
+      vertical-align: middle;
+      top: 25px;
+    }
+    </style>
+    
+    <div class="footer-copyright bg-dark text-white">
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
