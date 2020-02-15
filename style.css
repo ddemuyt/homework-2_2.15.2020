@@ -3,8 +3,9 @@ body {
 }
 .navbar-brand{
     background: rgb(4, 173, 196);
-    width: 10%;
+    width: 200px;
     text-align: center;
+    position: fixed;
     
 }
 .float-left{
