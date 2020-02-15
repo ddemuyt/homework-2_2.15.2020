@@ -11,3 +11,6 @@ body {
 .float-left{
     float: left;
 }
+h1 {
+    color: rgb(4, 173, 196);
+}
