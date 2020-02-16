@@ -11,3 +11,6 @@ body {
 h1 {
     color: rgb(4, 173, 196);
 }
+span {
+    color: gray;
+}
