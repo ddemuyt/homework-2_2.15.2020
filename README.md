@@ -1,73 +1,48 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+## Description
+This project is a combination of basic HTML code, accompanied by Twitter Bootstrap and a small external CSS file. 
+I worked to develop a baseline profile, consisting of an About Me, Porfolio, and Contact sections. 
+Each section was developed with HTML formatting and Bootstrap templates in order to improve efficency and design.
 
+The purpose of this project was to showcase some of the Bootstrap elements (https://getbootstrap.com/docs/4.4/getting-started/introduction/) easily accessible to deploy in everyday code. 
+Searching through Bootstraps library of contents and grid system allowed me to create a responsive design between mobile, tablet, laptop, and desktop users. 
+Bootstrap heavily uses the <i>class</i> elements to grab designs from a massive open-source library. These open sources allow any individual to apply, bend, and customize pre-made templates for improved design.
 
-## Directions
+Each of my pages have a navbar, footer, and elements of the Bootstrap grid system. 
 
-First, you will use the Bootstrap CSS Framework to recreate your portfolio. How do you deliver this? Here are some guidelines:
+<img src="../aboutme_example.jpg">
 
-* Create the following pages: `index.html`, `portfolio.html` and `contact.html`.
+With the use of the grid system, I was able to design a fluid and responsive site. By defining the 12 columns within each row in each container, you have full control of what goes where and when.
+The About Me section, I divided the profile picture from the descriptive text and designed it so the picture was responsive to the screen size.
+The Porfolio has several images defines for screen size, with badges responding to their relative position.
+The Contact page is a card template with a few added elements from Bootstrap's form components.
+All three of these pages are linked through <i>href</i> channels, allowing the user to shift from one page to another quickly and easily.
 
-* Using Bootstrap, recreate your portfolio site with the following items:
+Overall, this project takes many front-end design elements and combines them with the Bootstrap OSC. This makes for a high quality product with limited time, resources, or inherit talent. It also creates an optimal site for most users for the resources used to create it.
 
-   * A navbar
+## License
+MIT License
 
-   * A responsive layout
+Copyright (c) [2020] [DrakeDeMuyt]
 
-   * Responsive images
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* The Bootstrap portfolio should minimize the use of media queries.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-### Hints
-
-* Use Bootstrap's grid system (containers, rows, and columns).
-
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
-
-
-### Minimum Requirements
-
-* Functional, deployed application
-
-* GitHub repository with README describing the project
-
-
-### Bonus
-
-* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
-
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URLs of the deployed applications
-
-* The URLs of the GitHub repositories
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## Credits
+Bootstrap 4.4 - (https://getbootstrap.com/)
