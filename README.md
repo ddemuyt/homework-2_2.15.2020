@@ -11,7 +11,6 @@ Bootstrap heavily uses the <i>class</i> elements to grab designs from a massive 
 
 Each of my pages have a navbar, footer, and elements of the Bootstrap grid system. 
 
-<img src="./aboutme_example.jpg">
 
 With the use of the grid system, I was able to design a fluid and responsive site. By defining the 12 columns within each row in each container, you have full control of what goes where and when.
 The About Me section, I divided the profile picture from the descriptive text and designed it so the picture was responsive to the screen size.
