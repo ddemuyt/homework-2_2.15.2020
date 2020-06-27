@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white text-grey border-bottom">
+      <a class="navbar-brand text-white position-relative">Drake DeMuyt</a>
+      <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-white justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-secondary" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <style>
+    .navbar  {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    .navbar-brand {
+      height: 50px;
+      padding-top: 7.5px;
+    }
+    img {
+      margin: 15px;
+      position: relative;
+      z-index: 0;
+    }
+
+    .badge {
+      position: relative;
+      z-index: 1;
+      right: -15px;
+      width: 200px;
+      height: 40px;
+      bottom: 50px;
+      font-size: larger;
+    }
+  </style>
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12 card">
+        <h1 class="border-bottom"> Portfolio </h1>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 mx-auto">
+            <img src="./Assets/fatbeats.png" class="img-fluid" alt="fatbeats" width="200px">
+            <a href="https://ddemuyt.github.io/project1/" target="_blank" class="badge badge-info">fatbeats</a>
+          </div>
+          <div class="col-md-6 mx-auto">
+            <img src="./Assets/Name_Vs_Skeleton.png" class="img-fluid" alt="Name_Vs_Skeleton" width="200px" height="200px">
+            <a href="https://immense-atoll-20860.herokuapp.com/" target="_blank" class="badge badge-info">Name Vs Skeleton</a>
+          </div>
+          <div class="col-md-6 mx-auto">
+            <img src="./Assets/twitch.jpg" class="img-fluid" alt="Twitch" width="200px" height="200px">
+            <a href="https://www.twitch.com" target="_blank" class="badge badge-info">Twitch</a>
+          </div>
+          <div class="col-md-6 mx-auto">
+            <img src="./Assets/youtube.png" class="img-fluid" alt="YouTube" width="200px" height="200px">
+            <a href="https://www.youtube.com" target="_blank" class="badge badge-info">YouTube</a>
+          </div>
+          <div class="col-md-6 mx-auto">
+            <img src="./Assets/github.png" class="img-fluid" alt="GitHub" width="200px" height="200px">
+            <a href="https://www.github.com/ddemuyt" target="_blank" class="badge badge-info">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <style>
+    @media only screen and (min-width: 768px) {
+      [class=img] {
+        width: 100%;
+        margin: 15px;
+      position: relative;
+      z-index: 0;
+      left: 100px;
+      }
+
+      [class=badge] {
+        width: 100%;position: relative;
+      z-index: 1;
+      right: 10000px;
+      width: 200px;
+      height: 40px;
+      bottom: 50px;
+      font-size: larger;
+      }
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 10px;
+      width: 100%;
+      height: 55px;
+      background: rgb(4, 173, 196);
+      z-index: 3;
+    }
+  </style>
+  <div class="footer">
+
+  </div>
+  <style>
+    .footer-copyright {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      z-index: 3;
+    }
+
+    p {
+      position: relative;
+      vertical-align: middle;
+      top: 25px;
+    }
+  </style>
+
+  <div class="footer-copyright bg-dark text-white">
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
