@@ -17,7 +17,7 @@ function Contact() {
         <Row>
           <Col size="md-6">
               
-              <a href="https://github.com/ddemuyt"><img src={require ("../img/github.png")} style={{height: 200}}/></a>
+              <a href="https://github.com/ddemuyt"><img src={"/img/github.png"} style={{height: 200}}/></a>
           </Col>
           <Col size="md-6">
               <a href="https://www.linkedin.com/in/drake-demuyt/"><img style={{height: 175}} src="https://media-exp1.licdn.com/dms/image/C4D0BAQGyOWvr4W0Pow/company-logo_200_200/0?e=2159024400&v=beta&t=itrwplyUUwPAVxqxN8THySQds9p401UaOtZIurSBVnA"/></a>

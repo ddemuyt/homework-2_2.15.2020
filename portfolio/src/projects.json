@@ -2,37 +2,37 @@
     {
         "id": 1,
         "name": "fatbeats",
-        "image": "../src/img/fatbeats.png",
+        "image": "/img/fatbeats.png",
         "url": "https://ddemuyt.github.io/project1/"
     },
     {
         "id": 2,
         "name": "Name Vs. Skeleton",
-        "image": "../src/img/Name_Vs_Skeleton.png",
+        "image": "/img/Name_Vs_Skeleton.png",
         "url": "https://immense-atoll-20860.herokuapp.com/"
     },
     {
         "id": 3,
         "name": "Progressive Budget",
-        "image": "../src/img/fatbeats.png",
+        "image": "/img/PWAbudget.png",
         "url": "https://agile-cliffs-27065.herokuapp.com/"
     },
     {
         "id": 4,
         "name": "Note Taker",
-        "image": "../src/img/fatbeats.png",
+        "image": "/img/Expressnotetaker.png",
         "url": "https://evening-lake-71234.herokuapp.com/"
     },
     {
         "id": 5,
         "name": "User Directory (WIP)",
-        "image": "../src/img/fatbeats.png",
+        "image": "/img/ReactUserDirectory.png",
         "url": "https://github.com/ddemuyt/homework-19_6.20.2020"
     },
     {
         "id": 6,
         "name": "Eat-Da-Burger (WIP)",
-        "image": "../src/img/fatbeats.png",
+        "image": "/img/RedDot_Burger.jpg",
         "url": "https://intense-temple-24743.herokuapp.com/"
     }
   ]

@@ -10,7 +10,7 @@ function Card(props) {
         backgroundImage: props.image ? `src(${props.image})` : "none"
       }}
     >
-      <img src={props.image}/>
+      <img src={props.image} style={{height: 200}}/>
       {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
       
       <CardBtn
