@@ -25,7 +25,7 @@
     },
     {
         "id": 5,
-        "name": "User Directory (WIP)",
+        "name": "User Directory",
         "image": "/img/ReactUserDirectory.png",
         "url": "https://thawing-sierra-48746.herokuapp.com/"
     },
